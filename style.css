@@ -1,0 +1,60 @@
+html {
+	outline: 5px solid blueviolet;
+	/* height: 100%; */
+	/* height: 100vh; */
+}
+
+/* * {
+	box-sizing: border-box;
+} */
+
+body {
+	/* margin: 5px; */
+	outline: 5px solid violet;
+	/* padding: 5px; */
+
+	/* height: 100%; */
+	/* height: 100vh; */
+
+	
+}
+
+.container {
+	outline: 3px solid gold;
+	padding: 10px;
+	min-height: 100vh;
+
+display: flex;
+flex-direction: column;
+/* background-color: aqua; */
+
+}
+
+.my-header {
+	padding: 10px;
+	outline: 3px solid red;
+
+}
+
+.nav-list {
+	display: flex;
+	gap: 40px;
+	margin: 10px;
+}
+
+.my-main {
+	padding: 20px;
+	margin: 15px 0;
+
+	outline: 3px solid green;
+	text-align: center;
+
+	flex-grow: 1;
+
+}
+
+.my-footer {
+	padding: 10px;
+
+	outline: 3px solid blue;
+}
